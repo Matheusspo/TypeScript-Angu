@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",        // define o target do ECMA Script
+        "outDir": "app/js",     // define o output path dos arquivos JS
+        "noEmitOnError": true,  // nao gera output em caso de erros
+        "noImplicitAny": true,  // nao define a tipagem como 'any' implicitamente
+        "removeComments": true,  // não compila e nao gera no arquivo output
+        "module": "system",
+        "strictNullChecks": true,
+        "experimentalDecorators": true  //usando decorators 
+    },
+    "include": [
+        "app/ts/**/*"           // define o input path para gerar js
+    ]
+}
